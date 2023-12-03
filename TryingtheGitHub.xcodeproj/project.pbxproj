@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		4D5876A12B1C7CAD009891C9 /* TryingtheGitHubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5876A02B1C7CAD009891C9 /* TryingtheGitHubApp.swift */; };
-		4D5876A32B1C7CAD009891C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5876A22B1C7CAD009891C9 /* ContentView.swift */; };
+		4D5876A32B1C7CAD009891C9 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5876A22B1C7CAD009891C9 /* MainScreen.swift */; };
 		4D5876A52B1C7CAE009891C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5876A42B1C7CAE009891C9 /* Assets.xcassets */; };
 		4D5876A82B1C7CAE009891C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5876A72B1C7CAE009891C9 /* Preview Assets.xcassets */; };
+		4D5876AF2B1C87AA009891C9 /* FirstLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5876AE2B1C87AA009891C9 /* FirstLevel.swift */; };
+		4D5876B12B1C8801009891C9 /* SeconLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5876B02B1C8801009891C9 /* SeconLevel.swift */; };
+		4D5876B32B1C8824009891C9 /* ThirdLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5876B22B1C8824009891C9 /* ThirdLevel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D58769D2B1C7CAD009891C9 /* TryingtheGitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryingtheGitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D5876A02B1C7CAD009891C9 /* TryingtheGitHubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryingtheGitHubApp.swift; sourceTree = "<group>"; };
-		4D5876A22B1C7CAD009891C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D5876A22B1C7CAD009891C9 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		4D5876A42B1C7CAE009891C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D5876A72B1C7CAE009891C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D5876AE2B1C87AA009891C9 /* FirstLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLevel.swift; sourceTree = "<group>"; };
+		4D5876B02B1C8801009891C9 /* SeconLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeconLevel.swift; sourceTree = "<group>"; };
+		4D5876B22B1C8824009891C9 /* ThirdLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdLevel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				4D5876A02B1C7CAD009891C9 /* TryingtheGitHubApp.swift */,
-				4D5876A22B1C7CAD009891C9 /* ContentView.swift */,
+				4D5876A22B1C7CAD009891C9 /* MainScreen.swift */,
+				4D5876B02B1C8801009891C9 /* SeconLevel.swift */,
+				4D5876AE2B1C87AA009891C9 /* FirstLevel.swift */,
 				4D5876A42B1C7CAE009891C9 /* Assets.xcassets */,
 				4D5876A62B1C7CAE009891C9 /* Preview Content */,
 			);
@@ -63,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				4D5876A72B1C7CAE009891C9 /* Preview Assets.xcassets */,
+				4D5876B22B1C8824009891C9 /* ThirdLevel.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D5876A32B1C7CAD009891C9 /* ContentView.swift in Sources */,
+				4D5876A32B1C7CAD009891C9 /* MainScreen.swift in Sources */,
+				4D5876AF2B1C87AA009891C9 /* FirstLevel.swift in Sources */,
 				4D5876A12B1C7CAD009891C9 /* TryingtheGitHubApp.swift in Sources */,
+				4D5876B32B1C8824009891C9 /* ThirdLevel.swift in Sources */,
+				4D5876B12B1C8801009891C9 /* SeconLevel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
