@@ -12,7 +12,7 @@
 		4D5876A52B1C7CAE009891C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5876A42B1C7CAE009891C9 /* Assets.xcassets */; };
 		4D5876A82B1C7CAE009891C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5876A72B1C7CAE009891C9 /* Preview Assets.xcassets */; };
 		4D5876AF2B1C87AA009891C9 /* FirstLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5876AE2B1C87AA009891C9 /* FirstLevel.swift */; };
-		4D5876B12B1C8801009891C9 /* SeconLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5876B02B1C8801009891C9 /* SeconLevel.swift */; };
+		4D5876B12B1C8801009891C9 /* SecondLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5876B02B1C8801009891C9 /* SecondLevel.swift */; };
 		4D5876B32B1C8824009891C9 /* ThirdLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5876B22B1C8824009891C9 /* ThirdLevel.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +23,7 @@
 		4D5876A42B1C7CAE009891C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D5876A72B1C7CAE009891C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D5876AE2B1C87AA009891C9 /* FirstLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLevel.swift; sourceTree = "<group>"; };
-		4D5876B02B1C8801009891C9 /* SeconLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeconLevel.swift; sourceTree = "<group>"; };
+		4D5876B02B1C8801009891C9 /* SecondLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondLevel.swift; sourceTree = "<group>"; };
 		4D5876B22B1C8824009891C9 /* ThirdLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdLevel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,8 +59,9 @@
 			children = (
 				4D5876A02B1C7CAD009891C9 /* TryingtheGitHubApp.swift */,
 				4D5876A22B1C7CAD009891C9 /* MainScreen.swift */,
-				4D5876B02B1C8801009891C9 /* SeconLevel.swift */,
+				4D5876B02B1C8801009891C9 /* SecondLevel.swift */,
 				4D5876AE2B1C87AA009891C9 /* FirstLevel.swift */,
+				4D5876B22B1C8824009891C9 /* ThirdLevel.swift */,
 				4D5876A42B1C7CAE009891C9 /* Assets.xcassets */,
 				4D5876A62B1C7CAE009891C9 /* Preview Content */,
 			);
@@ -71,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				4D5876A72B1C7CAE009891C9 /* Preview Assets.xcassets */,
-				4D5876B22B1C8824009891C9 /* ThirdLevel.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -150,7 +150,7 @@
 				4D5876AF2B1C87AA009891C9 /* FirstLevel.swift in Sources */,
 				4D5876A12B1C7CAD009891C9 /* TryingtheGitHubApp.swift in Sources */,
 				4D5876B32B1C8824009891C9 /* ThirdLevel.swift in Sources */,
-				4D5876B12B1C8801009891C9 /* SeconLevel.swift in Sources */,
+				4D5876B12B1C8801009891C9 /* SecondLevel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
