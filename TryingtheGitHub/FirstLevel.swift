@@ -1,5 +1,5 @@
 //
-//  Second_interface.swift
+//  FirstLevel.swift
 //  MC2
 //
 //  Created by Hams Alzahrani on 08/05/1445 AH.
@@ -57,6 +57,16 @@ struct FirstLevel: View {
                         
                         Button {
                             self.isShowingPopUp.toggle()
+                            if isValidPassword(answer) {
+                                //print("Valid password")
+                                self.isShowingPopUp = true
+                                
+                            } else if (!isValidPassword(answer)) {
+                                // Code to execute if the password is invalid
+                                //print("Invalid password")
+                                self.isShowingPopUp1 = false
+                                
+                            }
                         } label: {
                             Image("b1")
                                 .resizable()
@@ -66,19 +76,6 @@ struct FirstLevel: View {
                                         .foregroundColor(.white)
                                         .font(.system(size: 24, weight: .bold))
                                         .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0)))
-                                .onTapGesture {
-                                    if isValidPassword(answer) {
-                                        // Code to execute if the password is valid
-                                        print("Valid password")
-                                        self.isShowingPopUp = true
-                                        
-                                    } else {
-                                        // Code to execute if the password is invalid
-                                        print("Invalid password")
-                                        self.isShowingPopUp1 = false
-                                        
-                                    }
-                                }
                             
                         }
                         
@@ -92,7 +89,7 @@ struct FirstLevel: View {
                     if isShowingPopUp {
                         GoodjobPopUpView(isShowingPopUp: $isShowingPopUp)
                     }
-                    if !isShowingPopUp1 {
+                    else if !isShowingPopUp1 {
                         WeakPasswordPopUpView(isShowingPopUp: $isShowingPopUp1)
                     }
                 }
@@ -138,7 +135,7 @@ struct GoodjobPopUpView: View {
                     .multilineTextAlignment(.center)
                     .foregroundColor(.black)
                     .frame(width: 245.0508, height: 49.58791, alignment: .top)
-                //.offset(x:0,y:-120)
+
                 
                 Button {
                     self.isShowingPopUp.toggle()
